@@ -1,17 +1,17 @@
 # Rational Fractal Spline - Modeling Project
 
-## 📌 Overview
+##  Overview
 
 This project implements **Rational Fractal Splines**, a technique in **fractal interpolation** used for **scientific data approximation**. Unlike classical interpolation methods, fractal interpolation functions (FIFs) provide **scalability and flexibility** through **scaling factors and shape parameters**, ensuring that the interpolated curve maintains properties like **monotonicity, positivity, and convexity**.
 
-## 🚀 Features
+##  Features
 
 - **Fractal Interpolation Functions (FIFs)** using rational cubic splines.
 - **Shape-Preserving Interpolation** (Monotonicity, Positivity, Convexity).
 - **Automated Scaling Factor & Shape Parameter Computation**.
 - **Graph Visualization of Interpolated Curves**.
 
-## 🔢 Mathematical Formulation
+##  Mathematical Formulation
 
 Given a dataset **{(xi, fi)}**, the interpolation function **Fi(x, f)** is defined as:
 
@@ -35,7 +35,7 @@ To ensure monotonicity, scaling factors **αi** and shape parameters **vi, wi** 
 αi ∈ [0, \mui] \quad \text{where} \quad \mui = \min\left(\frac{aidi}{d1}, \frac{aidi+1}{dn}, \frac{fi+1 - fi}{fn - f1}\right)
 \]
 
-## 🛠️ Installation
+##  Installation
 
 Clone this repository:
 
